@@ -1,0 +1,13 @@
+let name = "diwakar"
+
+let age = "33s"
+
+let ageInNumber = Number(age)
+
+let isLoggedIn = false
+
+console.log(isLoggedIn);
+
+isLoggedIn = String(isLoggedIn)
+
+console.log(typeof isLoggedIn)
