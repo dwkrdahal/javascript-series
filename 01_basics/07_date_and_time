@@ -1,0 +1,18 @@
+const myDate = new Date();
+
+// console.log(myDate);
+
+// console.log(myDate.toString());
+// console.log(myDate.toISOString());
+// console.log(myDate.toDateString());
+// console.log(myDate.toLocaleString());
+// console.log(myDate.toLocaleDateString());
+// console.log(myDate.toLocaleTimeString());
+// console.log(myDate.toJSON());
+
+const createdDate = new Date("02.03.2024 12:50");
+console.log(createdDate.toDateString());
+
+console.log(createdDate.getMonth() + 1);
+
+
